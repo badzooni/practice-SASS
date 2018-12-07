@@ -1,0 +1,16 @@
+.nav-color {
+  background-color: $green-type-color;
+    .nav-text {
+      font-size: $title-size;
+      font-weight: 600;
+      color: $white!important;
+    }
+  .border-icon {
+    border: 1px solid $nav-bar-icon;
+    background-color: $nav-bar-icon;
+    border-radius: $radius;
+    height: 44px;
+    width: 44px;
+    position:relative;
+  }
+}
