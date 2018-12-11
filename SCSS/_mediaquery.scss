@@ -1,0 +1,21 @@
+@media screen and (max-width: 991px){
+  .np-sidebar {
+    display: none;
+  }
+  .sidemenu-nav {
+    display: unset;
+  }
+  .btn-checkbox {
+    display: grid;
+    float: left;
+  }
+  .btn-add {
+    height: 38px;
+    min-width: 38px;
+    width: 100%;
+    border: 1px solid $border-color;
+    background-color: $white;
+    color: $green-type-color;
+  }
+
+}

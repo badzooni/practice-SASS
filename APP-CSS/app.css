@@ -50,9 +50,9 @@
 .btn-new-offer:focus {
     box-shadow: none;
 }
-/*.nav-toggler-border:focus {*/
-/*outline: none;*/
-/*}*/
+.nav-toggler-border:focus {
+outline: none;
+}
 
 /*Bulb in Navbar*/
 .light-bulb{
@@ -248,7 +248,7 @@
 
 }
 .has-search .form-control {
-    padding-left: 2.375rem;
+    padding-left: 38px;
     border: none;
 }
 

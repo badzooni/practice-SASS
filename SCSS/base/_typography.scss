@@ -5,3 +5,23 @@
 body {
   background-color: $background-color;
 }
+.text-results {
+  font-size: 20px;
+  color: $dark-blue;
+  .num-projects {
+    font-weight: bold;
+  }
+}
+.expand-all {
+  font-size: 16px;
+  color: $green-type-color;
+  &:hover {
+    text-decoration: underline;
+    color: $green-type-color;
+  }
+}
+.labels-dropdown {
+  font-size: 12px;
+  font-weight: 600;
+  color: #68768c;
+}

@@ -13,4 +13,9 @@
     width: 44px;
     position:relative;
   }
+  .nav-toggler-border {
+    &:focus {
+      outline: none;
+    }
+  }
 }
