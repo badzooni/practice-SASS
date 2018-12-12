@@ -12,6 +12,10 @@
     height: $size-44;
     width: $size-44;
     position:relative;
+
+    .plane-np {
+      font-size: $size-18;
+    }
   }
   .nav-toggler-border {
     &:focus {

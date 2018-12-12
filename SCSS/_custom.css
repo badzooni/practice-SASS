@@ -2884,6 +2884,8 @@ body {
     height: 2.75rem;
     width: 2.75rem;
     position: relative; }
+    .nav-color .border-icon .plane-np {
+      font-size: 1.125rem; }
   .nav-color .nav-toggler-border:focus {
     outline: none; }
 
