@@ -1,10 +1,10 @@
 .btn-new-offer {
   min-width: 182px;
   width: auto;
-  height: 36px;
-  border-radius: 4px;
+  height: $size-36;
+  border-radius: $size-4;
   border: solid 1px $white;
-  background-color: $green-type-color;
+  background-color: $green-20;
   color: $white;
 
   &:focus {
@@ -13,14 +13,14 @@
 }
 
 .whole-button-bulb {
-  background-color: $green-type-color;
+  background-color: $green-20;
 
   &:focus {
     box-shadow: none;
   }
 
   .light-bulb {
-    font-size: 18px;
+    font-size: $size-18;
     color: $white;
     position: relative;
     top: -3px;
@@ -30,21 +30,21 @@
     position: relative;
     top: -15px;
     right: 9px;
-    background-color: $nortification-badge;
+    background-color: $orange-10;
     color: $white;
-    width: 20px;
-    height: 20px;
-    border-radius: 14px;
+    width: $size-20;
+    height: $size-20;
+    border-radius: $size-14;
 
   }
   .user-pic {
-    font-size: 36px;
+    font-size: $size-36;
     color: $white;
   }
 
   .user-drop {
     position: relative;
-    bottom: 4px;
+    bottom: $size-4;
     left: 3px;
     font-size: 15px;
     color: $white;
@@ -53,14 +53,56 @@
 }
 .sidemenu-text {
   .badge-orange2 {
-    font-size: $font-size1;
+    font-size: $size-12;
     position: absolute;
     right: 5px;
-    background-color: $nortification-badge;
+    background-color: $orange-10;
     color: $white;
-    width: 20px;
-    height: 20px;
-    border-radius: $font-size2;
+    width: $size-20;
+    height: $size-20;
+    border-radius: $size-14;
   }
 }
+.badge-orange-nav {
+  font-size: $size-13;
+  position: absolute;
+  right: -70px;
+  background-color: $orange-10;
+  color: $white;
+  width: $size-20;
+  height: $size-20;
+  border-radius: $size-14;
+}
+
+.btn-project-preview {
+  position: absolute;
+  right: 5px;
+  top: 5%;
+  border-radius: $size-4;
+  background-color: rgba(49, 53, 62, 0.25);
+  color: $white;
+  font-size: $size-12;
+  height: $size-24;
+  width: 71px;
+  padding: 0;
+  &:focus {
+    box-shadow: none;
+  }
+}
+.btn-project-preview1 {
+  position: absolute;
+  right: 5px;
+  top: 20%;
+  border-radius: $size-4;
+  background-color: rgba(49, 53, 62, 0.25);
+  color: $white;
+  font-size: $size-12;
+  height: $size-24;
+  width: 71px;
+  padding: 0px;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
 

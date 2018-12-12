@@ -1,16 +1,16 @@
 .nav-color {
-  background-color: $green-type-color;
+  background-color: $green-20;
     .nav-text {
-      font-size: $title-size;
-      font-weight: 600;
+      font-size: $size-22;
+      font-weight: $weight-600;
       color: $white!important;
     }
   .border-icon {
-    border: 1px solid $nav-bar-icon;
-    background-color: $nav-bar-icon;
-    border-radius: $radius;
-    height: 44px;
-    width: 44px;
+    border: 1px solid $green-10;
+    background-color: $green-10;
+    border-radius: $size-4;
+    height: $size-44;
+    width: $size-44;
     position:relative;
   }
   .nav-toggler-border {

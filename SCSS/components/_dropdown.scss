@@ -2,33 +2,33 @@
 .btn-dropdown {
   position: relative;
   width: 100%;
-  border-radius: $radius;
+  border-radius: $size-4;
   box-shadow: 1px 3px 13px 2px rgba(53, 64, 82, 0.1);
-  background-image: linear-gradient(to top, #f7f8fa, $white);
-  color: $sidemenu-icons;
-  font-size: $font-size2;
-  font-weight: $font-weight;
+  background-image: linear-gradient(to top, $white-20, $white);
+  color: $gray-80;
+  font-size: $size-14;
+  font-weight: $weight-600;
+  &:hover {
+    text-decoration: none;
+    color: $gray-80;
+  }
+  &:focus {
+    box-shadow: none;
+  }
 }
-.btn-dropdown:hover {
-  text-decoration: none;
-  color: $dark-blue;
-}
-.btn-dropdown:focus {
-  box-shadow: none;
-}
+
 .dropdown-list {
   position: absolute;
   width: 100%;
 }
 .dropdown-item {
-  font-size: 14px;
-  color: $dark-blue;
+  font-size: $size-14;
+  color: $gray-80;
 }
 .dropdown-item:hover {
-  background-color: $green-type-color;
+  background-color: $green-20;
   color: $white;
 }
 .drop-list {
-
   width: 100%;
 }

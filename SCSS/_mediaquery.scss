@@ -10,12 +10,12 @@
     float: left;
   }
   .btn-add {
-    height: 38px;
-    min-width: 38px;
+    height: $size-38;
+    min-width: $size-38;
     width: 100%;
-    border: 1px solid $border-color;
+    border: 1px solid $gray-30;
     background-color: $white;
-    color: $green-type-color;
+    color: $green-20;
   }
 
 }

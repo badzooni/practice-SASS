@@ -2680,28 +2680,28 @@ body {
   background-color: #fcfdfd; }
 
 .text-results {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #354052; }
   .text-results .num-projects {
     font-weight: bold; }
 
 .expand-all {
-  font-size: 16px;
+  font-size: 1rem;
   color: #00797a; }
   .expand-all:hover {
     text-decoration: underline;
     color: #00797a; }
 
 .labels-dropdown {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
   color: #68768c; }
 
 .btn-new-offer {
   min-width: 182px;
   width: auto;
-  height: 36px;
-  border-radius: 4px;
+  height: 2.25rem;
+  border-radius: 0.25rem;
   border: solid 1px #ffffffff;
   background-color: #00797a;
   color: #ffffffff; }
@@ -2713,7 +2713,7 @@ body {
   .whole-button-bulb:focus {
     box-shadow: none; }
   .whole-button-bulb .light-bulb {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #ffffffff;
     position: relative;
     top: -3px; }
@@ -2723,52 +2723,88 @@ body {
     right: 9px;
     background-color: #ff7800;
     color: #ffffffff;
-    width: 20px;
-    height: 20px;
-    border-radius: 14px; }
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 0.875rem; }
   .whole-button-bulb .user-pic {
-    font-size: 36px;
+    font-size: 2.25rem;
     color: #ffffffff; }
   .whole-button-bulb .user-drop {
     position: relative;
-    bottom: 4px;
+    bottom: 0.25rem;
     left: 3px;
     font-size: 15px;
     color: #ffffffff; }
 
 .sidemenu-text .badge-orange2 {
-  font-size: 12px;
+  font-size: 0.75rem;
   position: absolute;
   right: 5px;
   background-color: #ff7800;
   color: #ffffffff;
-  width: 20px;
-  height: 20px;
-  border-radius: 14px; }
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 0.875rem; }
+
+.badge-orange-nav {
+  font-size: 0.8125rem;
+  position: absolute;
+  right: -70px;
+  background-color: #ff7800;
+  color: #ffffffff;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 0.875rem; }
+
+.btn-project-preview {
+  position: absolute;
+  right: 5px;
+  top: 5%;
+  border-radius: 0.25rem;
+  background-color: rgba(49, 53, 62, 0.25);
+  color: #ffffffff;
+  font-size: 0.75rem;
+  height: 1.5rem;
+  width: 71px;
+  padding: 0; }
+  .btn-project-preview:focus {
+    box-shadow: none; }
+
+.btn-project-preview1 {
+  position: absolute;
+  right: 5px;
+  top: 20%;
+  border-radius: 0.25rem;
+  background-color: rgba(49, 53, 62, 0.25);
+  color: #ffffffff;
+  font-size: 0.75rem;
+  height: 1.5rem;
+  width: 71px;
+  padding: 0px; }
+  .btn-project-preview1:focus {
+    box-shadow: none; }
 
 .btn-dropdown {
   position: relative;
   width: 100%;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   box-shadow: 1px 3px 13px 2px rgba(53, 64, 82, 0.1);
   background-image: linear-gradient(to top, #f7f8fa, #ffffffff);
-  color: #9fa9ba;
-  font-size: 14px;
+  color: #354052;
+  font-size: 0.875rem;
   font-weight: 600; }
-
-.btn-dropdown:hover {
-  text-decoration: none;
-  color: #354052; }
-
-.btn-dropdown:focus {
-  box-shadow: none; }
+  .btn-dropdown:hover {
+    text-decoration: none;
+    color: #354052; }
+  .btn-dropdown:focus {
+    box-shadow: none; }
 
 .dropdown-list {
   position: absolute;
   width: 100%; }
 
 .dropdown-item {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #354052; }
 
 .dropdown-item:hover {
@@ -2778,40 +2814,75 @@ body {
 .drop-list {
   width: 100%; }
 
+.shadow-card1 {
+  padding: 0.625rem;
+  box-shadow: 1px 4px 10px 3px rgba(53, 64, 82, 0.1); }
+  .shadow-card1 .card-elements {
+    position: relative;
+    width: 100%; }
+    .shadow-card1 .card-elements .np-card {
+      width: 100%;
+      height: auto;
+      padding-bottom: 0; }
+    .shadow-card1 .card-elements .np-project {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      height: 26px;
+      background-color: #354052;
+      color: #ffffffff;
+      border-radius: 2px;
+      text-align: center; }
+  .shadow-card1 .np-card-body {
+    padding-top: 0; }
+    .shadow-card1 .np-card-body .np-card-title1 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: #354052;
+      margin-bottom: 0; }
+    .shadow-card1 .np-card-body .np-card-title2 {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #7f8fa4; }
+    .shadow-card1 .np-card-body .card-detail-description {
+      font-size: 11px;
+      font-weight: bold;
+      color: #7f8fa4; }
+
 .main .has-search input::placeholder {
   color: #354052;
   opacity: 0.5;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.36; }
 .main .has-search .form-control {
-  padding-left: 38px;
+  padding-left: 2.375rem;
   border: none;
   box-shadow: 1px 3px 13px 2px rgba(53, 64, 82, 0.1);
   background-color: #ffffffff;
-  margin-top: 28px; }
+  margin-top: 1.75rem; }
 .main .has-search .form-control-feedback {
   position: absolute;
   z-index: 2;
   display: block;
-  width: 38px;
-  height: 38px;
-  line-height: 38px;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
   text-align: center;
   pointer-events: none;
-  color: #9fa9ba; }
+  color: #aaa; }
 
 .nav-color {
   background-color: #00797a; }
   .nav-color .nav-text {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 600;
     color: #ffffffff !important; }
   .nav-color .border-icon {
     border: 1px solid #74c7a8;
     background-color: #74c7a8;
-    border-radius: 4px;
-    height: 44px;
-    width: 44px;
+    border-radius: 0.25rem;
+    height: 2.75rem;
+    width: 2.75rem;
     position: relative; }
   .nav-color .nav-toggler-border:focus {
     outline: none; }
@@ -2819,26 +2890,17 @@ body {
 .sidemenu-nav {
   display: none; }
   .sidemenu-nav .nav-side-menu-text-main {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
     color: #ffffffff; }
   .sidemenu-nav .components .sidemenu-text-nav {
     position: relative;
     color: #ffffffff;
-    font-size: 14px !important; }
+    font-size: 0.875rem !important; }
     .sidemenu-nav .components .sidemenu-text-nav:hover {
       text-decoration: none; }
     .sidemenu-nav .components .sidemenu-text-nav img {
-      padding: 10px; }
-    .sidemenu-nav .components .sidemenu-text-nav .badge-orange-nav {
-      font-size: 12px;
-      position: absolute;
-      right: -70px;
-      background-color: #ff7800;
-      color: #ffffffff;
-      width: 20px;
-      height: 20px;
-      border-radius: 14px; }
+      padding-right: 0.625rem; }
 
 .wrapper .np-sidebar {
   min-width: 250px;
@@ -2853,13 +2915,13 @@ body {
     margin-top: 30px; }
     .wrapper .np-sidebar .sidemenu-position .nav-side-menu-text {
       color: #9fa9ba;
-      font-size: 12px; }
+      font-size: 0.75rem; }
     .wrapper .np-sidebar .sidemenu-position .components li a {
-      padding: 4px;
+      padding: 0.25rem;
       line-height: 1.5;
       display: block;
       color: #9fa9ba;
-      font-size: 12px; }
+      font-size: 0.75rem; }
       .wrapper .np-sidebar .sidemenu-position .components li a:hover {
         color: #9fa9ba;
         background: #ffffffff;
@@ -2871,7 +2933,7 @@ body {
       position: relative;
       border-right: 2px solid transparent; }
       .wrapper .np-sidebar .sidemenu-position .components li .sidemenu-text img {
-        padding-right: 10px; }
+        padding-right: 0.625rem; }
 
 @media screen and (max-width: 991px) {
   .np-sidebar {
@@ -2885,8 +2947,8 @@ body {
     float: left; }
 
   .btn-add {
-    height: 38px;
-    min-width: 38px;
+    height: 2.375rem;
+    min-width: 2.375rem;
     width: 100%;
     border: 1px solid #d0d8dc;
     background-color: #ffffffff;

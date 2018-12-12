@@ -1,31 +1,22 @@
 .sidemenu-nav {
   display: none;
   .nav-side-menu-text-main {
-    font-size: $font-size1;
-    font-weight: $font-weight;
+    font-size: $size-12;
+    font-weight: $weight-600;
     color: $white;
   }
   .components{
     .sidemenu-text-nav {
       position: relative;
       color: $white;
-      font-size: $font-size2!important;
+      font-size: $size-14!important;
       &:hover {
         text-decoration: none;
       }
       img {
-        padding: $element-position;
+        padding-right: $size-10;
       }
-      .badge-orange-nav {
-        font-size: $font-size1;
-        position: absolute;
-        right: -70px;
-        background-color: $nortification-badge;
-        color: $white;
-        width: 20px;
-        height: 20px;
-        border-radius: $font-size2;
-      }
+
     }
   }
 
@@ -36,8 +27,8 @@
   .np-sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: $background-color;
-    color: $sidemenu-icons;
+    background: $white-10;
+    color: $gray-50;
     transition: all 0.3s;
     height: 100%;
 
@@ -48,8 +39,8 @@
       .sidemenu-position {
         margin-top: 30px;
         .nav-side-menu-text {
-          color: $sidemenu-icons;
-          font-size: $font-size1;
+          color: $gray-50;
+          font-size: $size-12;
         }
         .components {
 
@@ -63,20 +54,20 @@
 
           li {
             a {
-              padding: 4px;
+              padding: $size-4;
               line-height: 1.5;
               display: block;
-              color: $sidemenu-icons;
-              font-size: $font-size1;
+              color: $gray-50;
+              font-size: $size-12;
 
               &:hover {
-                color: $sidemenu-icons;
+                color: $gray-50;
                 background: $white;
                 text-decoration: none;
               }
               &:focus {
-                color: $green-type-color !important;
-                border-right: 2px solid $green-type-color;
+                color: $green-20 !important;
+                border-right: 2px solid $green-20;
               }
             }
 
@@ -86,7 +77,7 @@
 
 
             img {
-              padding-right: $element-position;
+              padding-right: $size-10;
             }
           }
         }
