@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b09436b8-70d0-46b8-9971-baad1503383d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP-CSS/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/APP-CSS/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCSS/.sass-cache/49908ab34da0d20f74daa7853bd8bbb50932e841/_cards.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/.sass-cache/49908ab34da0d20f74daa7853bd8bbb50932e841/_cards.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCSS/.sass-cache/7eaf1b8277bc3de105e6e14cf64f72ca00eb747b/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/.sass-cache/7eaf1b8277bc3de105e6e14cf64f72ca00eb747b/_variables.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCSS/.sass-cache/800ab7cd3f2e1f8c0caa31f0f688e88ca6f7e82f/_typography.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/.sass-cache/800ab7cd3f2e1f8c0caa31f0f688e88ca6f7e82f/_typography.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCSS/_custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/_custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCSS/_custom.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/_custom.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCSS/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/abstracts/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCSS/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCSS/components/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/components/_cards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/SourceSansPro-Black.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/SourceSansPro-BlackIt.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/SourceSansPro-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/SourceSansPro-BoldIt.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/SourceSansPro-ExtraLight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/SourceSansPro-ExtraLightIt.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/SourceSansPro-It.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/SourceSansPro-Light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/SourceSansPro-LightIt.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/SourceSansPro-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/SourceSansPro-Semibold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/SourceSansPro-SemiboldIt.otf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +35,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APP-CSS/app.css">
+        <entry file="file://$PROJECT_DIR$/SCSS/components/_cards.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="174" column="5" selection-start-line="174" selection-start-column="5" selection-end-line="174" selection-end-column="5" />
+            <state relative-caret-position="560">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SCSS/base/_typography.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -24,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SCSS/abstracts/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+            <state relative-caret-position="400">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -33,8 +64,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+            <state relative-caret-position="280">
+              <caret line="377" column="71" selection-start-line="377" selection-start-column="71" selection-end-line="377" selection-end-column="71" />
+              <folding>
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SCSS/layout/_navigation.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="20">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -52,14 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>16</find>
-      <find>20</find>
-      <find>36</find>
-      <find>15</find>
-      <find>badge-orange</find>
-      <find>btn-proje</find>
-      <find>np-p</find>
-      <find>btn-drop</find>
       <find>has-search</find>
       <find>aaa</find>
       <find>feed</find>
@@ -81,7 +108,15 @@
       <find>f7f8fa</find>
       <find>badge-orange-nav</find>
       <find>btn-add</find>
+      <find>paper</find>
       <find>border</find>
+      <find>np-card-de</find>
+      <find>np-card-details</find>
+      <find>card-detail-desc</find>
+      <find>card-detail-bor</find>
+      <find>np-card-price</find>
+      <find>np-card-body</find>
+      <find>card-bod</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,16 +137,16 @@
         <option value="$PROJECT_DIR$/SCSS/base/_base.scss" />
         <option value="$USER_HOME$/Desktop/translate/lang-ru.ts" />
         <option value="$PROJECT_DIR$/SCSS/_custom.scss" />
-        <option value="$PROJECT_DIR$/SCSS/base/_typography.scss" />
-        <option value="$PROJECT_DIR$/APP-CSS/app.css" />
         <option value="$PROJECT_DIR$/SCSS/components/_dropdown.scss" />
         <option value="$PROJECT_DIR$/SCSS/layout/_forms.scss" />
-        <option value="$PROJECT_DIR$/SCSS/layout/_navigation.scss" />
         <option value="$PROJECT_DIR$/SCSS/layout/_sidebar.scss" />
-        <option value="$PROJECT_DIR$/SCSS/abstracts/_variables.scss" />
         <option value="$PROJECT_DIR$/SCSS/components/_buttons.scss" />
         <option value="$PROJECT_DIR$/SCSS/_mediaquery.scss" />
+        <option value="$PROJECT_DIR$/APP-CSS/app.css" />
+        <option value="$PROJECT_DIR$/SCSS/layout/_navigation.scss" />
+        <option value="$PROJECT_DIR$/SCSS/abstracts/_variables.scss" />
         <option value="$PROJECT_DIR$/SCSS/components/_cards.scss" />
+        <option value="$PROJECT_DIR$/SCSS/base/_typography.scss" />
         <option value="$PROJECT_DIR$/Main page.html" />
       </list>
     </option>
@@ -144,27 +179,13 @@
               <item name="NOVA p.o.d. - SenioResidenz extrended" type="b2602c69:ProjectViewProjectNode" />
               <item name="NOVA p.o" type="9c53a853:ProjectViewModuleGroupNode" />
               <item name="NOVA p.o.d. - SenioResidenz extrended" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NOVA p.o.d. - SenioResidenz extrended" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NOVA p.o" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="NOVA p.o.d. - SenioResidenz extrended" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="font" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NOVA p.o.d. - SenioResidenz extrended" type="b2602c69:ProjectViewProjectNode" />
               <item name="NOVA p.o" type="9c53a853:ProjectViewModuleGroupNode" />
               <item name="NOVA p.o.d. - SenioResidenz extrended" type="462c0819:PsiDirectoryNode" />
               <item name="SCSS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NOVA p.o.d. - SenioResidenz extrended" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NOVA p.o" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="NOVA p.o.d. - SenioResidenz extrended" type="462c0819:PsiDirectoryNode" />
-              <item name="SCSS" type="462c0819:PsiDirectoryNode" />
-              <item name="abstracts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NOVA p.o.d. - SenioResidenz extrended" type="b2602c69:ProjectViewProjectNode" />
@@ -172,20 +193,6 @@
               <item name="NOVA p.o.d. - SenioResidenz extrended" type="462c0819:PsiDirectoryNode" />
               <item name="SCSS" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NOVA p.o.d. - SenioResidenz extrended" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NOVA p.o" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="NOVA p.o.d. - SenioResidenz extrended" type="462c0819:PsiDirectoryNode" />
-              <item name="SCSS" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NOVA p.o.d. - SenioResidenz extrended" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NOVA p.o" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="NOVA p.o.d. - SenioResidenz extrended" type="462c0819:PsiDirectoryNode" />
-              <item name="SCSS" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,18 +269,20 @@
       <workItem from="1544188539209" duration="4822000" />
       <workItem from="1544427630521" duration="20570000" />
       <workItem from="1544513463527" duration="20836000" />
-      <workItem from="1544600463108" duration="18407000" />
+      <workItem from="1544600463108" duration="19218000" />
+      <workItem from="1544685861696" duration="4500000" />
+      <workItem from="1544690802386" duration="14923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198351000" />
+    <option name="totallyTimeSpent" value="218585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15298508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15618336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -286,7 +295,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.19826652" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.28169015" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021322" side_tool="true" weight="0.39869988" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -395,21 +404,6 @@
     <entry file="file://$PROJECT_DIR$/../../SASS/Custom Boostrap with SASS/scss/custom.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCSS/_custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="3418" selection-start-line="3418" selection-end-line="3418" />
-          <folding>
-            <element signature="e#35143#35343#2" expanded="true" />
-            <element signature="e#35571#35720#2" expanded="true" />
-            <element signature="e#36279#36425#2" expanded="true" />
-            <element signature="e#36780#36946#1" expanded="true" />
-            <element signature="e#84458#84701#2" expanded="true" />
-            <element signature="e#85727#85976#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/app.css" />
     <entry file="file://$PROJECT_DIR$/SCSS/root/_mediaquery.scss" />
     <entry file="file://$USER_HOME$/Desktop/translate/lang-ru.ts">
@@ -447,13 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCSS/_custom.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SCSS/_mediaquery.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -462,57 +449,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCSS/components/_cards.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/practice-SASS-master/SCSS/abstracts/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-328" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCSS/abstracts/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/SCSS/_custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        <state relative-caret-position="355">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCSS/base/_base.scss">
+    <entry file="file://$PROJECT_DIR$/SCSS/_custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCSS/base/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="598">
+          <caret line="2959" selection-start-line="2959" selection-end-line="2959" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SCSS/layout/_navigation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="20">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APP-CSS/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="174" column="5" selection-start-line="174" selection-start-column="5" selection-end-line="174" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="467" selection-start-line="467" selection-end-line="469" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font/OFL.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-862" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCSS/base/_base.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCSS/abstracts/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCSS/components/_cards.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCSS/base/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        <state relative-caret-position="280">
+          <caret line="377" column="71" selection-start-line="377" selection-start-column="71" selection-end-line="377" selection-end-column="71" />
+          <folding>
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

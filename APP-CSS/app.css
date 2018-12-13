@@ -459,12 +459,12 @@ outline: none;
 .np-card-details {
     color: #354052;
 }
-.np-card-details-border {
-    border-bottom: 1px solid #e6eaee;
-}
-.np-card-price {
-    color: #354052;
-}
+/*.np-card-details-border {*/
+    /*border-bottom: 1px solid #e6eaee;*/
+/*}*/
+/*.np-card-price {*/
+    /*color: #354052;*/
+/*}*/
 .np-card-icon {
     color: #bbc5d5;
 }
