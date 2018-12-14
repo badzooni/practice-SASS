@@ -104,5 +104,37 @@
     box-shadow: none;
   }
 }
+.btn-fund {
+  border-radius: $size-4;
+  border: solid 1px $gray-20;
+  background-color: $white;
+  padding: 2px 25px;
+  cursor: pointer;
+  &:hover {
+    background-color: $green-20;
+    h5 {
+      color: $white;
+    }
+    h6{
+      color: $white;
+    }
+
+  }
+  &:focus {
+    outline: none;
+  }
+  h5 {
+    font-family: SourceSansPro-Semibold, serif;
+    font-weight: $weight-600;
+    color: $green-20;
+  }
+  h6{
+    color: $green-20;
+  }
+
+
+}
+
+
 
 

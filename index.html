@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">-->
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
           integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
     <!--My CSS-->
-    <link rel="stylesheet" href="SCSS/_custom.css">
+    <link rel="stylesheet" href="SCSS/custom.css">
     <title>Main page</title>
 </head>
 <body>
@@ -374,11 +375,10 @@
                                 <h5>Category</h5>
                                 <div class="row border-bottom pb-2">
                                     <div class="col-12">
-                                        <div class="card-detail-description mt-3 mb-2">
-                                           <h6>Contect person info</h6>
-                                        </div>
+                                           <h6 class="mt-3 mb-2">Contect person info</h6>
+
                                         <div class="d-flex justify-content-start mt-1">
-                                            <i class="fas fa-map-marker-alt np-card-icon"></i>
+                                            <i class="fas fa-map-marker-alt np-card-icon mt-1"></i>
                                             <div class="np-card-details ml-2">
                                                 <h4 class="mb-0">Contact Name Last Name</h4>
                                                 <h4 class="mb-1">Company name</h4>
@@ -396,9 +396,9 @@
 
                                 <div class="row border-bottom pb-2">
                                     <div class="col-12">
-                                        <div class="card-detail-description mt-4 mb-2">
-                                            Location info
-                                        </div>
+
+                                            <h6 class="mt-3 mb-2">Location info</h6>
+
                                         <div class="d-flex justify-content-start mt-1">
                                             <i class="fas fa-city np-card-icon d-flex align-items-center"></i>
                                             <div class="np-card-details ml-2">
@@ -407,7 +407,6 @@
                                         </div>
                                         <div class="d-flex justify-content-start mt-1">
                                             <i class="fas fa-map-marker-alt np-card-icon d-flex align-items-center"></i>
-
                                                 <h4 class="mb-0 ml-3">Adress and postal code</h4>
 
                                         </div>
@@ -417,13 +416,13 @@
 
                                 <div class="row border-bottom pb-2">
                                     <div class="col-12">
-                                        <div class="card-detail-description mt-4 mb-2">
-                                            Fond
-                                        </div>
+
+                                            <h6 class="mt-3 mb-2">Fond</h6>
+
                                         <div class="d-flex justify-content-start mt-1">
                                             <i class="fas fa-city np-card-icon d-flex align-items-center"></i>
                                             <div class="np-card-details ml-2">
-                                                Fond name 1
+                                                <h4 class="mb-0">Fond name 1</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -432,13 +431,13 @@
 
                                 <div class="row border-bottom pb-2">
                                     <div class="col-12">
-                                        <div class="card-detail-description mt-4 mb-2">
-                                            Portfolio
-                                        </div>
+
+                                            <h6 class="mt-3 mb-2">Portfolio</h6>
+
                                         <div class="d-flex justify-content-start mt-1">
                                             <i class="fas fa-city np-card-icon d-flex align-items-center"></i>
                                             <div class="np-card-details ml-2">
-                                                Portfolio name 1
+                                                <h4 class="mb-0">Portfolio name 1</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -446,21 +445,20 @@
 
                                 <div class="row border-bottom pb-2">
                                     <div class="col-12">
-                                        <div class="card-detail-description mt-4 mb-2">
-                                            Date when last seen
-                                        </div>
+
+                                            <h6 class="mt-3 mb-2">Date when last seen</h6>
+
                                         <div class="d-flex justify-content-start mt-1">
                                             <i class="fas fa-calendar-alt np-card-icon d-flex align-items-center"></i>
                                             <div class="np-card-details ml-2">
-                                                16.08.2018
+                                                <h4 class="mb-0">16.08.2018</h4>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="card-detail-description mt-4 mb-2">
-                                    Selling price
-                                </div>
+                                    <h6 class="mt-4 mb-2">Selling price</h6>
+
                                 <div class="d-flex justify-content-start mt-1">
                                     <i class="fas fa-dollar-sign np-card-icon d-flex align-items-center"></i>
                                     <div class="np-card-details ml-2">
@@ -471,15 +469,17 @@
                             </div>
                         </div>
                         <div class="np-btn-card d-flex justify-content-around">
-                            <div class="d-flex justify-content-start col-6 pl-0 pr-1">
-                                <button type="button" class="btn-fund w-100 mt-2"><span class="text-fund mb-0">Assign to<br><span
-                                        class="bold-fund">Fund</span></span></button>
+                            <div class="btn-assign d-flex justify-content-start col-6 pl-0 pr-1">
+                                <button type="button" class="btn-fund w-100 mt-2">
+                                    <h6 class="mb-0">Assign to</h6>
+                                    <h5 class="mb-0">Fund</h5>
+                                </button>
                             </div>
-                            <div class="d-flex justify-content-end col-6 pl-1 pr-0">
-                                <button type="button" class="btn-portfolio w-100 mt-1" data-toggle="modal"
-                                        data-target="#exampleModalCenter"><span
-                                        class="text-portfolio mb-0">Assign to<br><span
-                                        class="bold-portfolio">Portfolio</span></span></button>
+                            <div class="btn-assign d-flex justify-content-end col-6 pl-1 pr-0">
+                                <button type="button" class="btn-portfolio w-100 mt-1" data-toggle="modal" data-target="#exampleModalCenter">
+                                    <h6 class="mb-0">Assign to</h6>
+                                    <h5 class="mb-0">Portfolio</h5>
+                                </button>
                             </div>
                         </div>
 

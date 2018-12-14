@@ -13,6 +13,7 @@
         padding-bottom: 0;
       }
       .np-project {
+        font-family: SourceSansPro-Semibold, serif;
         position: absolute;
         bottom: 0px;
         width: 100%;
@@ -32,6 +33,7 @@
         font-weight: $weight-600;
         color: $gray-80;
         margin: 15px 0 0 0;
+        font-family: SourceSansPro-Semibold, serif;
       }
       h4 {
         color: $gray-80;
@@ -39,18 +41,15 @@
       h5 {
         font-weight: $weight-600;
         color: $gray-60;
+        font-family: SourceSansPro-Semibold, serif;
       }
-      .h6 {
+      h6 {
         font-size: 11px;
         font-weight: $weight-bold;
         color: $gray-60;
+        font-family: SourceSansPro-Bold, serif;
       }
 
-      .card-detail-description {
-        font-size: 11px;
-        font-weight: bold;
-        color: $gray-60;
-      }
       .np-card-icon {
         color: $gray-40;
       }

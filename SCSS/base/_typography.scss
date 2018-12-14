@@ -1,17 +1,21 @@
+@font-face {
+  font-family: SourceSansPro;
+  src: url("../font/SourceSansPro-Regular.otf");
+}
+@font-face {
+  font-family: SourceSansPro-Bold;
+  src: url("../font/SourceSansPro-Bold.otf");
+}
+@font-face {
+  font-family: SourceSansPro-Semibold;
+  src: url("../font/SourceSansPro-Semibold.otf");
+}
 
 body {
   background-color: $white-10;
-  @font-face {
-    font-family: test1;
-    src: url(../../font/SourceSansPro-Regular.ttf);
-  }
-  @font-face {
-    font-family: test2;
-    src: url(/font/SourceSansPro-Bold.ttf);
-  }
 }
 h1 {
-  font-family: test1;
+  font-family: 'SourceSansPro', sans-serif;
   font-size: $size-22;
   font-weight: normal;
   font-style: normal;
@@ -20,6 +24,7 @@ h1 {
   color: $gray-100;
 }
 h2 {
+  font-family: 'SourceSansPro', sans-serif;
   font-size: $size-20;
   font-weight: normal;
   font-style: normal;
@@ -28,7 +33,7 @@ h2 {
   color: $gray-100;
 }
 h3 {
-  font-family: SourceSansPro;
+  font-family: 'SourceSansPro', sans-serif;
   font-size: $size-18;
   font-weight: normal;
   font-style: normal;
@@ -37,7 +42,7 @@ h3 {
   color: $gray-100;
 }
 h4 {
-  font-family: SourceSansPro;
+  font-family: 'SourceSansPro', sans-serif;
   font-size: $size-16;
   font-weight: normal;
   font-style: normal;
@@ -46,7 +51,7 @@ h4 {
   color: $gray-100;
 }
 h5 {
-  font-family: SourceSansPro;
+  font-family: 'SourceSansPro', sans-serif;
   font-size: $size-14;
   font-weight: normal;
   font-style: normal;
@@ -55,13 +60,14 @@ h5 {
   color: $gray-100;
 }
 h6 {
-  font-family: SourceSansPro;
+  font-family: 'SourceSansPro', sans-serif;
   font-size: $size-12;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   color: $gray-100;
+
 }
 .text-results {
   font-size: $size-20;
