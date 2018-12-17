@@ -6956,26 +6956,45 @@ h6 {
   .btn-project-preview1:focus {
     box-shadow: none; }
 
-.btn-fund {
+.btn-assign {
   border-radius: 0.25rem;
   border: solid 1px #e6eaee;
   background-color: #ffffffff;
   padding: 2px 25px;
   cursor: pointer; }
-  .btn-fund:hover {
+  .btn-assign:hover {
     background-color: #00797a; }
-    .btn-fund:hover h5 {
+    .btn-assign:hover h5 {
       color: #ffffffff; }
-    .btn-fund:hover h6 {
+    .btn-assign:hover h6 {
       color: #ffffffff; }
-  .btn-fund:focus {
+  .btn-assign:focus {
     outline: none; }
-  .btn-fund h5 {
-    font-family: SourceSansPro-Semibold, serif;
+  .btn-assign h5 {
     font-weight: 600;
     color: #00797a; }
-  .btn-fund h6 {
+  .btn-assign h6 {
     color: #00797a; }
+
+.btn-view {
+  height: 2.25rem;
+  border-radius: 0.25rem;
+  background-color: #00797a; }
+  .btn-view:hover {
+    background-color: #009394; }
+  .btn-view:focus {
+    box-shadow: none;
+    background-color: #006566; }
+  .btn-view h5 {
+    color: #ffffffff; }
+
+.np-collapse[aria-expanded="true"] i {
+  transform: rotate(180deg); }
+
+.down-btn-card2 {
+  color: #354052;
+  font-size: 0.625rem;
+  cursor: pointer; }
 
 .btn-dropdown {
   position: relative;
@@ -7010,6 +7029,8 @@ h6 {
 .shadow-card1 {
   padding: 0.625rem;
   box-shadow: 1px 4px 10px 3px rgba(53, 64, 82, 0.1); }
+  .shadow-card1 a {
+    text-decoration: none; }
   .shadow-card1 .card-elements {
     position: relative;
     width: 100%; }
@@ -7048,6 +7069,47 @@ h6 {
     .shadow-card1 .np-card-body .np-card-icon {
       color: #bbc5d5; }
 
+.modal-header {
+  border-bottom: none; }
+  .modal-header .has-search1 input::placeholder {
+    color: #354052;
+    opacity: 0.5;
+    font-size: 0.875rem;
+    line-height: 1.36; }
+  .modal-header .has-search1 .form-control {
+    padding-left: 2.375rem;
+    background-color: #ffffffff;
+    border: 1px solid #d0d8dc; }
+    .modal-header .has-search1 .form-control:focus {
+      box-shadow: none; }
+  .modal-header .has-search1 .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.625rem;
+    text-align: center;
+    pointer-events: none;
+    color: #9fa9ba;
+    font-size: 0.75rem; }
+  .modal-header h1 {
+    font-weight: 600;
+    color: #354052; }
+  .modal-header h4 {
+    color: #7f8fa4;
+    padding-left: 15px; }
+
+.modal-body .card:hover {
+  cursor: pointer; }
+.modal-body .card h3 {
+  font-weight: 600;
+  color: #354052; }
+.modal-body .card h4 {
+  color: #354052; }
+  .modal-body .card h4 .num-card {
+    font-family: SourceSansPro-Semibold, serif; }
+
 .main .has-search input::placeholder {
   color: #354052;
   opacity: 0.5;
@@ -7065,10 +7127,11 @@ h6 {
   display: block;
   width: 2.375rem;
   height: 2.375rem;
-  line-height: 2.375rem;
+  line-height: 2.625rem;
   text-align: center;
   pointer-events: none;
-  color: #aaa; }
+  color: #9fa9ba;
+  font-size: 0.75rem; }
 
 .nav-color {
   background-color: #00797a; }

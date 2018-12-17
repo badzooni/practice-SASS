@@ -1,0 +1,63 @@
+.modal-header {
+  border-bottom: none;
+  .has-search1 {
+    input::placeholder {
+      color: $gray-80;
+      opacity: 0.5;
+      font-size: $size-14;
+      line-height: 1.36;
+    }
+
+
+    .form-control {
+      padding-left: $size-38;
+      background-color: $white;
+      border: 1px solid $gray-30;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    .form-control-feedback {
+      position: absolute;
+      z-index: 2;
+      display: block;
+      width: $size-38;
+      height: $size-38;
+      line-height: $size-42;
+      text-align: center;
+      pointer-events: none;
+      color: $gray-50;
+      font-size: $size-12;
+    }
+  }
+  h1 {
+    font-weight: $weight-600;
+    color: $gray-80;
+  }
+  h4 {
+    color: $gray-60;
+    padding-left: 15px;
+  }
+}
+
+
+
+
+
+.modal-body {
+  .card {
+    &:hover {
+      cursor: pointer;
+    }
+    h3 {
+      font-weight: $weight-600;
+      color: $gray-80;
+    }
+    h4 {
+      color: $gray-80;
+      .num-card {
+        font-family: SourceSansPro-Semibold, serif;
+      }
+    }
+  }
+}

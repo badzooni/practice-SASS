@@ -22,10 +22,11 @@
       display: block;
       width: $size-38;
       height: $size-38;
-      line-height: $size-38;
+      line-height: $size-42;
       text-align: center;
       pointer-events: none;
-      color: $gray;
+      color: $gray-50;
+      font-size: $size-12;
     }
   }
 }

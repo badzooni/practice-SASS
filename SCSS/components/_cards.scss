@@ -2,7 +2,9 @@
   .shadow-card1 {
     padding: $size-10;
     box-shadow: 1px 4px 10px 3px rgba(53, 64, 82, 0.1);
-
+      a {
+        text-decoration: none;
+      }
     .card-elements {
       position: relative;
       width: 100%;
