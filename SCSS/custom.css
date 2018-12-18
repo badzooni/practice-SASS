@@ -7070,7 +7070,8 @@ h6 {
       color: #bbc5d5; }
 
 .modal-header {
-  border-bottom: none; }
+  border-bottom: none;
+  padding: 25px 50px 10px; }
   .modal-header .has-search1 input::placeholder {
     color: #354052;
     opacity: 0.5;
@@ -7100,15 +7101,56 @@ h6 {
     color: #7f8fa4;
     padding-left: 15px; }
 
-.modal-body .card:hover {
-  cursor: pointer; }
-.modal-body .card h3 {
-  font-weight: 600;
-  color: #354052; }
-.modal-body .card h4 {
-  color: #354052; }
-  .modal-body .card h4 .num-card {
-    font-family: SourceSansPro-Semibold, serif; }
+.modal-body {
+  padding: 0px 50px; }
+  .modal-body .modal-input {
+    margin-bottom: 20px; }
+    .modal-body .modal-input input {
+      -webkit-appearance: none;
+      -moz-appearance: none; }
+      .modal-body .modal-input input:checked ~ .card-modal-details {
+        border: none;
+        outline-style: solid;
+        outline-color: #00797a;
+        outline-width: 1px; }
+  .modal-body .card:hover {
+    cursor: pointer; }
+  .modal-body .card .card-body {
+    padding: 15px; }
+  .modal-body .card h3 {
+    font-weight: 600;
+    color: #354052; }
+  .modal-body .card h4 {
+    color: #354052; }
+    .modal-body .card h4 .num-card {
+      font-family: SourceSansPro-Semibold, serif; }
+  .modal-body .card .np-card-icon {
+    color: #bbc5d5;
+    font: 1rem;
+    width: 27px; }
+
+.modal-footer {
+  border-top: 0;
+  padding: 20px 50px; }
+  .modal-footer .btn-modal-cancel {
+    max-width: 127px;
+    width: 100%;
+    border: 1px solid #e6eaee;
+    border-radius: 0.25rem;
+    background-color: #ffffffff;
+    font-size: 0.875rem;
+    color: #68768c; }
+    .modal-footer .btn-modal-cancel:focus {
+      box-shadow: none; }
+  .modal-footer .btn-modal-assign {
+    max-width: 127px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #00797a;
+    font-size: 14px;
+    color: #ffffff; }
+    .modal-footer .btn-modal-assign:focus {
+      box-shadow: none; }
 
 .main .has-search input::placeholder {
   color: #354052;

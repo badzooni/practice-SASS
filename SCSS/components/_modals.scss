@@ -1,5 +1,6 @@
 .modal-header {
   border-bottom: none;
+  padding: 25px 50px 10px;
   .has-search1 {
     input::placeholder {
       color: $gray-80;
@@ -44,20 +45,76 @@
 
 
 
-.modal-body {
-  .card {
-    &:hover {
-      cursor: pointer;
-    }
-    h3 {
-      font-weight: $weight-600;
-      color: $gray-80;
-    }
-    h4 {
-      color: $gray-80;
-      .num-card {
-        font-family: SourceSansPro-Semibold, serif;
+  .modal-body {
+    padding: 0px 50px;
+    .modal-input {
+      margin-bottom: 20px;
+      input {
+        -webkit-appearance: none;
+        -moz-appearance:    none;
+        &:checked ~ .card-modal-details {
+          border: none;
+          outline-style: solid;
+          outline-color: #00797a;
+          outline-width: 1px;
+        }
+        }
+      }
+        .card {
+          &:hover {
+            cursor: pointer;
+        }
+
+        .card-body {
+          padding: 15px;
+        }
+
+        h3 {
+          font-weight: $weight-600;
+          color: $gray-80;
+        }
+
+        h4 {
+          color: $gray-80;
+
+          .num-card {
+            font-family: SourceSansPro-Semibold, serif;
+          }
+        }
+
+        .np-card-icon {
+          color: $gray-40;
+          font: $size-16;
+          width: 27px;
+        }
       }
     }
+  .modal-footer {
+    border-top: 0;
+    padding: 20px 50px;
+
+    .btn-modal-cancel {
+      max-width: 127px;
+      width: 100%;
+      border: 1px solid #e6eaee;
+      border-radius: $border-radius;
+      background-color: $white;
+      font-size: $size-14;
+      color: $gray-70;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    .btn-modal-assign {
+      max-width: 127px;
+      width: 100%;
+      border-radius: 4px;
+      background-color: #00797a;
+      font-size: 14px;
+      color: #ffffff;
+    &:focus {
+      box-shadow: none;
+    }
+    }
+
   }
-}
