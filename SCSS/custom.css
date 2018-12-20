@@ -6996,6 +6996,23 @@ h6 {
   font-size: 0.625rem;
   cursor: pointer; }
 
+.btn-object {
+  width: 100%;
+  background-color: #354052;
+  border-radius: 0.25rem;
+  color: #ffffffff; }
+  .btn-object:focus {
+    box-shadow: none; }
+
+.btn-project {
+  width: 100%;
+  border-radius: 0.25rem;
+  background-color: #ffffffff;
+  color: #c23e4e;
+  border: 1px solid #c23e4e; }
+  .btn-project:focus {
+    box-shadow: none; }
+
 .btn-dropdown {
   position: relative;
   width: 100%;
@@ -7069,21 +7086,21 @@ h6 {
     .shadow-card1 .np-card-body .np-card-icon {
       color: #bbc5d5; }
 
-.modal-header {
+.np-header {
   border-bottom: none;
   padding: 25px 50px 10px; }
-  .modal-header .has-search1 input::placeholder {
+  .np-header .has-search1 input::placeholder {
     color: #354052;
     opacity: 0.5;
     font-size: 0.875rem;
     line-height: 1.36; }
-  .modal-header .has-search1 .form-control {
+  .np-header .has-search1 .form-control {
     padding-left: 2.375rem;
     background-color: #ffffffff;
     border: 1px solid #d0d8dc; }
-    .modal-header .has-search1 .form-control:focus {
+    .np-header .has-search1 .form-control:focus {
       box-shadow: none; }
-  .modal-header .has-search1 .form-control-feedback {
+  .np-header .has-search1 .form-control-feedback {
     position: absolute;
     z-index: 2;
     display: block;
@@ -7094,63 +7111,107 @@ h6 {
     pointer-events: none;
     color: #9fa9ba;
     font-size: 0.75rem; }
-  .modal-header h1 {
+  .np-header h1 {
     font-weight: 600;
     color: #354052; }
-  .modal-header h4 {
+  .np-header h4 {
     color: #7f8fa4;
     padding-left: 15px; }
 
-.modal-body {
+.modal-body-np {
   padding: 0px 50px; }
-  .modal-body .modal-input {
+  .modal-body-np .modal-input {
     margin-bottom: 20px; }
-    .modal-body .modal-input input {
+    .modal-body-np .modal-input input {
       -webkit-appearance: none;
       -moz-appearance: none; }
-      .modal-body .modal-input input:checked ~ .card-modal-details {
-        border: none;
-        outline-style: solid;
-        outline-color: #00797a;
-        outline-width: 1px; }
-  .modal-body .card:hover {
-    cursor: pointer; }
-  .modal-body .card .card-body {
-    padding: 15px; }
-  .modal-body .card h3 {
-    font-weight: 600;
-    color: #354052; }
-  .modal-body .card h4 {
-    color: #354052; }
-    .modal-body .card h4 .num-card {
-      font-family: SourceSansPro-Semibold, serif; }
-  .modal-body .card .np-card-icon {
-    color: #bbc5d5;
-    font: 1rem;
-    width: 27px; }
+      .modal-body-np .modal-input input:checked ~ .card-modal-details {
+        outline: 2px solid #00797a;
+        outline-offset: -2px;
+        border-radius: 0.25rem; }
+    .modal-body-np .modal-input .card-modal-details:hover {
+      cursor: pointer; }
+    .modal-body-np .modal-input .card-modal-details .card-body-np {
+      padding: 15px; }
+    .modal-body-np .modal-input .card-modal-details h3 {
+      font-weight: 600;
+      color: #354052; }
+    .modal-body-np .modal-input .card-modal-details h4 {
+      color: #354052; }
+      .modal-body-np .modal-input .card-modal-details h4 .num-card {
+        font-family: SourceSansPro-Semibold, serif; }
+    .modal-body-np .modal-input .card-modal-details .np-card-icon {
+      color: #bbc5d5;
+      font: 1rem;
+      width: 27px; }
 
-.modal-footer {
+.modal-footer-np {
   border-top: 0;
-  padding: 20px 50px; }
-  .modal-footer .btn-modal-cancel {
+  padding: 0px 50px 20px 50px; }
+  .modal-footer-np .btn-modal {
     max-width: 127px;
     width: 100%;
-    border: 1px solid #e6eaee;
     border-radius: 0.25rem;
-    background-color: #ffffffff;
-    font-size: 0.875rem;
-    color: #68768c; }
-    .modal-footer .btn-modal-cancel:focus {
+    font-size: 0.875rem; }
+    .modal-footer-np .btn-modal:focus {
       box-shadow: none; }
-  .modal-footer .btn-modal-assign {
-    max-width: 127px;
-    width: 100%;
-    border-radius: 4px;
-    background-color: #00797a;
-    font-size: 14px;
-    color: #ffffff; }
-    .modal-footer .btn-modal-assign:focus {
-      box-shadow: none; }
+    .modal-footer-np .btn-modal--cancel {
+      border: 1px solid #e6eaee;
+      background-color: #ffffffff;
+      color: #68768c; }
+    .modal-footer-np .btn-modal--assign {
+      background-color: #00797a;
+      color: #ffffffff; }
+
+.modal-size {
+  max-width: 600px;
+  width: 100%; }
+  .modal-size .np-header2 {
+    border-bottom: 0; }
+    .modal-size .np-header2 h1 {
+      font-weight: 600;
+      color: #354052;
+      font-family: SourceSansPro-Semibold, serif; }
+  .modal-size .np-body2 h2 {
+    font-weight: 600;
+    color: #354052;
+    font-family: SourceSansPro-Semibold, serif; }
+  .modal-size .np-body2 h4 {
+    color: #bbc5d5; }
+    .modal-size .np-body2 h4 a {
+      color: #00797a;
+      text-decoration: underline; }
+  .modal-size .np-body2 .dragBox {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-size: 1rem;
+    color: #7f8fa4;
+    border: 2px dashed rgba(159, 169, 186, 0.3);
+    display: inline-block;
+    transition: transform 0.3s; }
+    .modal-size .np-body2 .dragBox input[type="file"] {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      top: 0;
+      left: 0; }
+  .modal-size .btn-checkbox {
+    text-align: center; }
+    .modal-size .btn-checkbox .check-label {
+      background-color: #ffffffff;
+      color: #7f8fa4;
+      border: 1px solid #d0d8dc;
+      font-size: 1rem;
+      border-radius: 0.25rem;
+      text-align: center; }
+    .modal-size .btn-checkbox .checked-state:checked + .check-label {
+      background: #00797a;
+      color: #f7f8fa; }
+    .modal-size .btn-checkbox input[type="checkbox"] {
+      position: absolute;
+      opacity: 0; }
 
 .main .has-search input::placeholder {
   color: #354052;
@@ -7241,6 +7302,12 @@ h6 {
       .wrapper .np-sidebar .sidemenu-position .components li .sidemenu-text img {
         padding-right: 0.625rem; }
 
+@media screen and (min-width: 991px) {
+  .np-content {
+    padding: 20px 50px; }
+
+  .modal-size {
+    max-width: 930px; } }
 @media screen and (max-width: 991px) {
   .np-sidebar {
     display: none; }

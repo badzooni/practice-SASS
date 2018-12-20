@@ -1,4 +1,5 @@
-.modal-header {
+//MODAL 1
+.np-header {
   border-bottom: none;
   padding: 25px 50px 10px;
   .has-search1 {
@@ -45,76 +46,145 @@
 
 
 
-  .modal-body {
-    padding: 0px 50px;
-    .modal-input {
-      margin-bottom: 20px;
-      input {
-        -webkit-appearance: none;
-        -moz-appearance:    none;
-        &:checked ~ .card-modal-details {
-          border: none;
-          outline-style: solid;
-          outline-color: #00797a;
-          outline-width: 1px;
-        }
-        }
-      }
-        .card {
-          &:hover {
-            cursor: pointer;
-        }
 
-        .card-body {
-          padding: 15px;
-        }
-
-        h3 {
-          font-weight: $weight-600;
-          color: $gray-80;
-        }
-
-        h4 {
-          color: $gray-80;
-
-          .num-card {
-            font-family: SourceSansPro-Semibold, serif;
+  .modal-body-np {
+      padding: 0px 50px;
+      .modal-input {
+          margin-bottom: 20px;
+          input {
+              -webkit-appearance: none;
+              -moz-appearance:    none;
+              &:checked ~ .card-modal-details {
+                  outline: 2px solid $green-20;
+                  outline-offset: -2px;
+                  border-radius: $size-4;
+              }
           }
-        }
+          .card-modal-details {
+              &:hover {
+                  cursor: pointer;
+              }
+              .card-body-np {
+                 padding: 15px;
+              }
+              h3 {
+                  font-weight: $weight-600;
+                  color: $gray-80;
+              }
+              h4 {
+                  color: $gray-80;
 
-        .np-card-icon {
-          color: $gray-40;
-          font: $size-16;
-          width: 27px;
-        }
+                  .num-card {
+                      font-family: SourceSansPro-Semibold, serif;
+                  }
+              }
+              .np-card-icon {
+                  color: $gray-40;
+                  font: $size-16;
+                  width: 27px;
+              }
+          }
       }
-    }
-  .modal-footer {
+  }
+  .modal-footer-np {
     border-top: 0;
-    padding: 20px 50px;
+    padding: 0px 50px 20px 50px;
 
-    .btn-modal-cancel {
+
+    .btn-modal {
       max-width: 127px;
       width: 100%;
-      border: 1px solid #e6eaee;
       border-radius: $border-radius;
-      background-color: $white;
       font-size: $size-14;
-      color: $gray-70;
       &:focus {
         box-shadow: none;
       }
+      &--cancel {
+        border: 1px solid $gray-20;
+        background-color: $white;
+        color: $gray-70;
+      }
+      &--assign {
+        background-color: $green-20;
+        color: $white;
+      }
     }
-    .btn-modal-assign {
-      max-width: 127px;
-      width: 100%;
-      border-radius: 4px;
-      background-color: #00797a;
-      font-size: 14px;
-      color: #ffffff;
-    &:focus {
-      box-shadow: none;
-    }
+  }
+
+  //MODAL 2
+  .modal-size {
+    max-width: 600px;
+    width: 100%;
+
+    .np-header2 {
+      border-bottom: 0;
+
+      h1 {
+        font-weight: $weight-600;
+        color: $gray-80;
+        font-family: SourceSansPro-Semibold, serif;
+      }
     }
 
+    .np-body2 {
+      h2 {
+        font-weight: $weight-600;
+        color: $gray-80;
+        font-family: SourceSansPro-Semibold, serif;
+      }
+
+      h4 {
+        color: $gray-40;
+
+        a {
+          color: $green-20;
+          text-decoration: underline;
+
+        }
+      }
+
+      .dragBox {
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        font-size: $size-16;
+        color: $gray-60;
+        border: 2px dashed rgba(159, 169, 186, 0.3);
+        display: inline-block;
+        transition: transform 0.3s;
+
+        input[type="file"] {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          top: 0;
+          left: 0;
+        }
+      }
+    }
+
+    .btn-checkbox {
+      text-align: center;
+      .check-label {
+        background-color: $white;
+        color: $gray-60;
+        border: 1px solid $gray-30;
+        font-size: $size-16;
+        border-radius: $size-4;
+        text-align: center;
+      }
+
+      .checked-state:checked + .check-label {
+        background: $green-20;
+        color: $white-20;
+      }
+
+      input[type="checkbox"] {
+        position: absolute;
+        opacity: 0;
+      }
+    }
   }
+
+

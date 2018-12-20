@@ -1,3 +1,13 @@
+@media screen and (min-width: 991px) {
+  .np-content {
+    padding: 20px 50px;
+  }
+  .modal-size {
+    max-width: 930px;
+  }
+  
+}
+
 @media screen and (max-width: 991px){
   .np-sidebar {
     display: none;
