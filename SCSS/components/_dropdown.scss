@@ -32,3 +32,22 @@
 .drop-list {
   width: 100%;
 }
+.btn-flag-drop {
+  width: 85px;
+  background-color: #ffffff;
+  color: #d0d8dc;
+  border: 1px solid #d0d8dc;
+  &::after {
+    position: relative;
+    right: -13px;
+    border-radius: 0.5px;
+    //BOJA DROP STRELICE SE NE UKLAPA SA DIZAJNOM TAKO DA JE OSTALA DEFAULTNA
+  }
+  .flag-drop {
+    position: relative;
+    right: 17px;
+    top: -2px;
+    font-size: $size-12;
+    color: #7ed321;
+  }
+}

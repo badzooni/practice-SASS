@@ -681,12 +681,6 @@
                                                         <h4 class="margin-text mb-0">Canton, City</h4>
                                                     </div>
                                                 </div>
-                                                <!--<div class="d-flex justify-content-start mt-1">-->
-                                                    <!--<i class="fas fa-map-marker-alt np-card-icon"></i>-->
-                                                        <!--<h4 class="margin-text1">Canton, City</h4>-->
-
-                                                <!--</div>-->
-
                                             </div>
                                         </div>
                                     </label>
@@ -864,8 +858,8 @@
                             </div>
                             <div class="uploadOuter px-0 mb-4">
                                 <div class="dragBox w-100 mt-4">
-                                    <h4 class="drag-box-text mt-4">Drag and drop</h4>
-                                    <h4 class="drag-box-text-or">or</h4>
+                                    <h4 class="drag-box-text mt-4 mb-1">Drag and drop</h4>
+                                    <h4 class="drag-box-text-or mb-1">or</h4>
                                     <h4 class="mb-4"><a href="#" class="upload-href">Upload</a> an image
                                     </h4>
                                     <input type="file" onChange="dragNdrop(event)" ondragover="drag()" ondrop="drop()"
@@ -922,14 +916,18 @@
                             <div class="row mt-4">
                                 <div class="col-12 col-sm-6">
                                     <div class="form-group box-input-text">
-                                        <label class="labels-bold">Real estate name</label>
+                                        <label class="label-np">
+                                            <h5 class="mb-0">Real estate name</h5>
+                                        </label>
                                         <input class="form-control form-box4" type="text" placeholder="Object name…">
 
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="form-group box-input-text">
-                                        <label class="labels-bold">Kanton</label>
+                                        <label class="label-np">
+                                            <h5 class="mb-0">Kanton</h5>
+                                        </label>
                                         <input class="form-control form-box4" type="text" placeholder="Kanton…">
 
                                     </div>
@@ -938,14 +936,18 @@
                             <div class="row">
                                 <div class="col-12 col-sm-6">
                                     <div class="form-group box-input-text">
-                                        <label class="labels-bold">City</label>
+                                        <label class="label-np">
+                                            <h5 class="mb-0">City</h5>
+                                        </label>
                                         <input class="form-control form-box4" type="text" placeholder="City name…">
 
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="form-group box-input-text">
-                                        <label class="labels-bold">Address</label>
+                                        <label class="label-np">
+                                            <h5 class="mb-0">Address</h5>
+                                        </label>
                                         <input class="form-control form-box4" type="text" placeholder="Object Address…">
 
                                     </div>
@@ -953,7 +955,9 @@
                             </div>
                             <div class="row">
                                 <div class="col-12 col-lg-6">
-                                    <label class="labels-bold">Source</label>
+                                    <label class="label-np">
+                                        <h5 class="mb-0">Source</h5>
+                                    </label>
                                     <div class="row">
                                         <div class="col-12 col-sm-3">
                                             <div class="btn-group">
@@ -974,7 +978,9 @@
                                 </div>
                                 <div class="col-12 col-lg-6 mt-1">
                                     <div class="form-group box-input-text">
-                                        <label class="labels-bold">Source company</label>
+                                        <label class="label-np">
+                                            <h5 class="mb-0">Source company</h5>
+                                        </label>
                                         <input class="form-control form-box4" type="text" placeholder="Object Address…">
 
                                     </div>
@@ -983,7 +989,9 @@
                             <div class="row">
                                 <div class="col-12 col-sm-6">
                                     <div class="form-group box-input-text">
-                                        <label class="labels-bold">Source email</label>
+                                        <label class="label-np">
+                                            <h5 class="mb-0">Source email</h5>
+                                        </label>
                                         <input class="form-control form-box4" type="text"
                                                placeholder="email@example.com...">
 
@@ -991,7 +999,9 @@
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="form-group box-input-text">
-                                        <label class="labels-bold">Source phone number</label>
+                                        <label class="label-np">
+                                            <h5 class="mb-0">Source phone number</h5>
+                                        </label>
                                         <input class="form-control form-box4" type="text" placeholder="Phone number...">
 
                                     </div>
@@ -1000,7 +1010,9 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group box-input-text mb-0">
-                                        <label class="labels-bold">Year of construction/completion</label>
+                                        <label class="label-np">
+                                            <h5 class="mb-0">Year of construction/completion</h5>
+                                        </label>
 
                                     </div>
                                 </div>
@@ -1011,19 +1023,20 @@
                                         <input class="form-control form-box4" type="text" placeholder="Year...">
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-9 d-flex justify-content-md-between">
-                                    <div class="form-group box-input-text">
-                                        <input class="form-control form-box4" type="text" placeholder="Description…...">
-                                    </div>
-
-
-                                    <button type="button" class="btn btn-add ml-2">+</button>
+                                <div class="form-group box-input-text col-12 col-sm-7 col-lg-8">
+                                    <input class="form-control form-box4" type="text" placeholder="Description…...">
                                 </div>
-                            </div>
+                                    <div class="col-12 col-sm-2 col-lg-1 d-flex justify-content-lg-end">
+                                    <button type="button" class="btn btn-add pt-1">+</button>
+                                    </div>
+                                </div>
+
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <label class="labels-bold">Description</label>
+                                        <label class="label-np">
+                                            <h5 class="mb-0">Description</h5>
+                                        </label>
                                         <div class="d-flex flex-column border-np">
                                             <textarea class="form-control form-text-big"
                                                       id="exampleFormControlTextarea1" rows="5"
@@ -1058,7 +1071,7 @@
                                 <button type="button" class="btn btn-modal-assign ml-2">Assign</button>
                             </div>
                         </div>
-
+                    </div>
                     </div>
                 </div>
             </div>

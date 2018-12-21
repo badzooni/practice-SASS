@@ -5,14 +5,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SCSS/.sass-cache/144e94a0674ecd371feddf01bfa30924d85e7369/_mediaquery.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/.sass-cache/144e94a0674ecd371feddf01bfa30924d85e7369/_mediaquery.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SCSS/.sass-cache/49908ab34da0d20f74daa7853bd8bbb50932e841/_buttons.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/.sass-cache/49908ab34da0d20f74daa7853bd8bbb50932e841/_buttons.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCSS/.sass-cache/49908ab34da0d20f74daa7853bd8bbb50932e841/_dropdown.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/.sass-cache/49908ab34da0d20f74daa7853bd8bbb50932e841/_dropdown.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SCSS/.sass-cache/49908ab34da0d20f74daa7853bd8bbb50932e841/_modals.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/.sass-cache/49908ab34da0d20f74daa7853bd8bbb50932e841/_modals.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCSS/.sass-cache/7eaf1b8277bc3de105e6e14cf64f72ca00eb747b/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/.sass-cache/7eaf1b8277bc3de105e6e14cf64f72ca00eb747b/_variables.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCSS/.sass-cache/54edf576beacd5a58980156a084fb170a53f5477/_forms.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/.sass-cache/54edf576beacd5a58980156a084fb170a53f5477/_forms.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SCSS/_mediaquery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/_mediaquery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCSS/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/abstracts/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SCSS/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCSS/components/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/components/_dropdown.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SCSS/components/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/components/_modals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SCSS/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SCSS/custom.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/custom.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCSS/layout/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SCSS/layout/_forms.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,13 +23,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SCSS/base/_typography.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="560">
+              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -35,26 +51,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="875" column="43" selection-start-line="875" selection-start-column="43" selection-end-line="875" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APP-CSS/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="925" column="14" selection-start-line="925" selection-start-column="1" selection-end-line="925" selection-end-column="14" />
+            <state relative-caret-position="381">
+              <caret line="1039" column="73" lean-forward="true" selection-start-line="1039" selection-start-column="73" selection-end-line="1039" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SCSS/components/_modals.scss">
+        <entry file="file://$PROJECT_DIR$/APP-CSS/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="185" column="7" lean-forward="true" selection-start-line="185" selection-start-column="7" selection-end-line="185" selection-end-column="7" />
+            <state relative-caret-position="20">
+              <caret line="801" selection-start-line="801" selection-end-line="801" />
             </state>
           </provider>
         </entry>
@@ -62,8 +69,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SCSS/components/_buttons.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="179" column="3" selection-start-line="179" selection-start-column="3" selection-end-line="179" selection-end-column="3" />
+            <state relative-caret-position="664">
+              <caret line="190" column="27" selection-start-line="190" selection-start-column="27" selection-end-line="190" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SCSS/components/_dropdown.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="43" column="77" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SCSS/components/_modals.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="184" column="29" lean-forward="true" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -71,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SCSS/abstracts/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="360">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -81,16 +106,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>border-icon</find>
-      <find>fund</find>
-      <find>card-detail</find>
-      <find>#009394</find>
-      <find>view</find>
-      <find>np-collapse</find>
-      <find>COLLAPSE</find>
-      <find>modal-header</find>
-      <find>card</find>
-      <find>15px</find>
       <find>has</find>
       <find>input</find>
       <find>modal-input</find>
@@ -111,6 +126,16 @@
       <find>check-label</find>
       <find>box-input</find>
       <find>checked-state</find>
+      <find>labels</find>
+      <find>label</find>
+      <find>main</find>
+      <find>flag-drop</find>
+      <find>add</find>
+      <find>form-box4</find>
+      <find>btn-add</find>
+      <find>add new</find>
+      <find>btn-new</find>
+      <find>border-np</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,7 +155,6 @@
         <option value="$USER_HOME$/Desktop/app.css" />
         <option value="$PROJECT_DIR$/SCSS/base/_base.scss" />
         <option value="$USER_HOME$/Desktop/translate/lang-ru.ts" />
-        <option value="$PROJECT_DIR$/SCSS/components/_dropdown.scss" />
         <option value="$PROJECT_DIR$/SCSS/layout/_sidebar.scss" />
         <option value="$PROJECT_DIR$/APP-CSS/app.css" />
         <option value="$USER_HOME$/Desktop/practice-SASS-master/Main page.html" />
@@ -140,12 +164,13 @@
         <option value="$PROJECT_DIR$/SCSS/base/_typography.scss" />
         <option value="$PROJECT_DIR$/SCSS/components/_cards.scss" />
         <option value="$PROJECT_DIR$/SCSS/custom.scss" />
-        <option value="$PROJECT_DIR$/SCSS/layout/_forms.scss" />
-        <option value="$PROJECT_DIR$/SCSS/_mediaquery.scss" />
         <option value="$PROJECT_DIR$/SCSS/abstracts/_variables.scss" />
+        <option value="$PROJECT_DIR$/SCSS/layout/_forms.scss" />
+        <option value="$PROJECT_DIR$/SCSS/components/_dropdown.scss" />
+        <option value="$PROJECT_DIR$/SCSS/components/_modals.scss" />
+        <option value="$PROJECT_DIR$/SCSS/_mediaquery.scss" />
         <option value="$PROJECT_DIR$/SCSS/components/_buttons.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/SCSS/components/_modals.scss" />
       </list>
     </option>
   </component>
@@ -161,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,6 +231,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,18 +313,19 @@
       <workItem from="1545290788961" duration="4660000" />
       <workItem from="1545296429333" duration="5037000" />
       <workItem from="1545302642956" duration="655000" />
-      <workItem from="1545306776422" duration="9134000" />
+      <workItem from="1545306776422" duration="9906000" />
+      <workItem from="1545379115813" duration="14462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294190000" />
+    <option name="totallyTimeSpent" value="309424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16897655" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1705757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -318,7 +344,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,13 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCSS/components/_dropdown.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SCSS/layout/_sidebar.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1580">
@@ -481,59 +500,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/custom.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/SCSS/layout/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCSS/_mediaquery.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCSS/components/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="179" column="3" selection-start-line="179" selection-start-column="3" selection-end-line="179" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="875" column="43" selection-start-line="875" selection-start-column="43" selection-end-line="875" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCSS/base/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APP-CSS/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="925" column="14" selection-start-line="925" selection-start-column="1" selection-end-line="925" selection-end-column="14" />
+        <state relative-caret-position="755">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SCSS/abstracts/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="360">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCSS/components/_dropdown.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="43" column="77" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCSS/_mediaquery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCSS/base/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCSS/components/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="190" column="27" selection-start-line="190" selection-start-column="27" selection-end-line="190" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SCSS/components/_modals.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="185" column="7" lean-forward="true" selection-start-line="185" selection-start-column="7" selection-end-line="185" selection-end-column="7" />
+        <state relative-caret-position="455">
+          <caret line="184" column="29" lean-forward="true" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="1039" column="73" lean-forward="true" selection-start-line="1039" selection-start-column="73" selection-end-line="1039" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP-CSS/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="801" selection-start-line="801" selection-end-line="801" />
         </state>
       </provider>
     </entry>

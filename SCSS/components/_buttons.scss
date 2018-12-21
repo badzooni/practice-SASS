@@ -6,6 +6,7 @@
   border: solid 1px $white;
   background-color: $green-20;
   color: $white;
+  font-family: SourceSansPro-Semibold, serif;
 
   &:focus {
     box-shadow: none;
@@ -179,6 +180,20 @@ h5 {
     box-shadow: none;
   }
 }
+.btn-add {
+  height: $size-38;
+  width: $size-38;
+  border: 1px solid $gray-30;
+  background-color: $white;
+  color: $green-20;
+  font-size: $size-20;
+  font-family: SourceSansPro-Bold, serif;
+  font-weight: $weight-bold;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
 
 
 

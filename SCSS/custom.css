@@ -6876,7 +6876,8 @@ h6 {
   border-radius: 0.25rem;
   border: solid 1px #ffffffff;
   background-color: #00797a;
-  color: #ffffffff; }
+  color: #ffffffff;
+  font-family: SourceSansPro-Semibold, serif; }
   .btn-new-offer:focus {
     box-shadow: none; }
 
@@ -7013,6 +7014,18 @@ h6 {
   .btn-project:focus {
     box-shadow: none; }
 
+.btn-add {
+  height: 2.375rem;
+  width: 2.375rem;
+  border: 1px solid #d0d8dc;
+  background-color: #ffffffff;
+  color: #00797a;
+  font-size: 1.25rem;
+  font-family: SourceSansPro-Bold, serif;
+  font-weight: bold; }
+  .btn-add:focus {
+    box-shadow: none; }
+
 .btn-dropdown {
   position: relative;
   width: 100%;
@@ -7042,6 +7055,22 @@ h6 {
 
 .drop-list {
   width: 100%; }
+
+.btn-flag-drop {
+  width: 85px;
+  background-color: #ffffff;
+  color: #d0d8dc;
+  border: 1px solid #d0d8dc; }
+  .btn-flag-drop::after {
+    position: relative;
+    right: -13px;
+    border-radius: 0.5px; }
+  .btn-flag-drop .flag-drop {
+    position: relative;
+    right: 17px;
+    top: -2px;
+    font-size: 0.75rem;
+    color: #7ed321; }
 
 .shadow-card1 {
   padding: 0.625rem;
@@ -7197,21 +7226,28 @@ h6 {
       opacity: 0;
       top: 0;
       left: 0; }
-  .modal-size .btn-checkbox {
+  .modal-size .np-body2 .btn-checkbox {
     text-align: center; }
-    .modal-size .btn-checkbox .check-label {
+    .modal-size .np-body2 .btn-checkbox .check-label {
       background-color: #ffffffff;
       color: #7f8fa4;
       border: 1px solid #d0d8dc;
       font-size: 1rem;
       border-radius: 0.25rem;
       text-align: center; }
-    .modal-size .btn-checkbox .checked-state:checked + .check-label {
+    .modal-size .np-body2 .btn-checkbox .checked-state:checked + .check-label {
       background: #00797a;
       color: #f7f8fa; }
-    .modal-size .btn-checkbox input[type="checkbox"] {
+    .modal-size .np-body2 .btn-checkbox input[type="checkbox"] {
       position: absolute;
       opacity: 0; }
+  .modal-size .np-body2 label h5 {
+    font-weight: bold;
+    color: #7f8fa4;
+    font-family: SourceSansPro-Bold, serif; }
+  .modal-size .np-body2 .form-box4:focus {
+    box-shadow: none;
+    border: solid 1px #d0d8dc; }
 
 .main .has-search input::placeholder {
   color: #354052;
@@ -7235,6 +7271,12 @@ h6 {
   pointer-events: none;
   color: #9fa9ba;
   font-size: 0.75rem; }
+
+.box-input-text {
+  width: 100%; }
+  .box-input-text input::placeholder {
+    color: #9fa9ba;
+    font-size: 1rem; }
 
 .nav-color {
   background-color: #00797a; }
