@@ -31,6 +31,10 @@ h2 {
   font-stretch: normal;
   line-height: normal;
   color: $gray-100;
+
+  span{
+    font-weight: $weight-normal;
+  }
 }
 h3 {
   font-family: 'SourceSansPro', sans-serif;

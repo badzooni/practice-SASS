@@ -193,7 +193,36 @@ h5 {
     box-shadow: none;
   }
 }
+.modal2-footer {
+  border-top: none;
 
+  .btn-modal-cancel {
+    max-width: 127px;
+    width: 100%;
+    border: 1px solid $gray-20;
+    border-radius: $size-4;
+    background-color: $white;
+    font-size: $size-14;
+    color: $gray-70;
 
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .btn-modal-add {
+    max-width: 127px;
+    width: 100%;
+    border-radius: $size-4;
+    background-color: $green-20;
+    font-size: $size-14;
+    color: $white;
+    font-family: SourceSansPro-Semibold, serif;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
 
 

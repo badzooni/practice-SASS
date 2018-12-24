@@ -6809,6 +6809,8 @@ h2 {
   font-stretch: normal;
   line-height: normal;
   color: #717986; }
+  h2 span {
+    font-weight: 400; }
 
 h3 {
   font-family: 'SourceSansPro', sans-serif;
@@ -7026,6 +7028,29 @@ h6 {
   .btn-add:focus {
     box-shadow: none; }
 
+.modal2-footer {
+  border-top: none; }
+  .modal2-footer .btn-modal-cancel {
+    max-width: 127px;
+    width: 100%;
+    border: 1px solid #e6eaee;
+    border-radius: 0.25rem;
+    background-color: #ffffffff;
+    font-size: 0.875rem;
+    color: #68768c; }
+    .modal2-footer .btn-modal-cancel:focus {
+      box-shadow: none; }
+  .modal2-footer .btn-modal-add {
+    max-width: 127px;
+    width: 100%;
+    border-radius: 0.25rem;
+    background-color: #00797a;
+    font-size: 0.875rem;
+    color: #ffffffff;
+    font-family: SourceSansPro-Semibold, serif; }
+    .modal2-footer .btn-modal-add:focus {
+      box-shadow: none; }
+
 .btn-dropdown {
   position: relative;
   width: 100%;
@@ -7210,6 +7235,8 @@ h6 {
     .modal-size .np-body2 h4 a {
       color: #00797a;
       text-decoration: underline; }
+  .modal-size .np-body2 h5 {
+    color: #7f8fa4; }
   .modal-size .np-body2 .dragBox {
     margin: 0 auto;
     position: relative;
@@ -7248,6 +7275,54 @@ h6 {
   .modal-size .np-body2 .form-box4:focus {
     box-shadow: none;
     border: solid 1px #d0d8dc; }
+  .modal-size .np-body2 .num-text {
+    position: absolute;
+    bottom: 20px;
+    border: none;
+    font-size: 12px;
+    color: #9fa9ba; }
+  .modal-size .np-body2 .np-check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1.375rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+    .modal-size .np-body2 .np-check input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0; }
+    .modal-size .np-body2 .np-check input:checked ~ .checkmark {
+      background-color: #00797a; }
+      .modal-size .np-body2 .np-check input:checked ~ .checkmark:after {
+        display: block; }
+    .modal-size .np-body2 .np-check .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 20px;
+      width: 20px;
+      background-color: #ffffffff;
+      border: 1px solid #d0d8dc; }
+      .modal-size .np-body2 .np-check .checkmark:after {
+        content: "";
+        display: none;
+        position: absolute;
+        left: 25%;
+        top: 50%;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg) translate(-50%, -50%);
+        -ms-transform: rotate(45deg) translate(-50%, -50%);
+        transform: rotate(45deg) translate(-50%, -50%); }
 
 .main .has-search input::placeholder {
   color: #354052;
@@ -7277,6 +7352,19 @@ h6 {
   .box-input-text input::placeholder {
     color: #9fa9ba;
     font-size: 1rem; }
+
+.custom-textarea textarea::placeholder {
+  color: #9fa9ba;
+  font-size: 1rem; }
+.custom-textarea .form-text-big {
+  color: #9fa9ba;
+  font-size: 1rem;
+  resize: none;
+  border: 1px solid #d0d8dc; }
+  .custom-textarea .form-text-big:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #d0d8dc; }
 
 .nav-color {
   background-color: #00797a; }

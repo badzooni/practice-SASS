@@ -39,3 +39,22 @@
     }
   }
 }
+.custom-textarea {
+  textarea {
+    &::placeholder {
+      color: $gray-50;
+      font-size: $size-16;
+    }
+  }
+  .form-text-big {
+    color: $gray-50;
+    font-size: $size-16;
+    resize: none;
+    border: 1px solid $gray-30;
+    &:focus {
+      box-shadow: none;
+      outline: none;
+      border-color: $gray-30;
+    }
+  }
+}
