@@ -19,10 +19,7 @@
 
     }
   }
-
 }
-
-
 .wrapper {
   .np-sidebar {
     min-width: 250px;
@@ -31,11 +28,9 @@
     color: $gray-50;
     transition: all 0.3s;
     height: 100%;
-
     &.active {
       margin-left: -250px;
     }
-
       .sidemenu-position {
         margin-top: 30px;
         .nav-side-menu-text {
@@ -43,15 +38,6 @@
           font-size: $size-12;
         }
         .components {
-
-          //.sidebar-header {
-          //  padding: 20px;
-          //  background: $background-color;
-          //  color: $sidemenu-icons;
-          //  font-size: $font-size;
-          //  font-weight: $font-weight;
-          //}
-
           li {
             a {
               padding: $size-4;
@@ -70,12 +56,9 @@
                 border-right: 2px solid $green-20;
               }
             }
-
           .sidemenu-text {
             position: relative;
             border-right: 2px solid transparent;
-
-
             img {
               padding-right: $size-10;
             }

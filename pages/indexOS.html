@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">-->
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!--My CSS-->
+    <link rel="stylesheet" href="../SCSS/custom.css">
+    <title>Index - Offer single</title>
+</head>
+<body>
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light nav-color">
+    <div class="container">
+        <a class="navbar-brand nav-text d-flex justify-content-center align-items-center" href="#">
+            <div class="border-icon d-flex justify-content-center align-items-center">
+                <i class="fas fa-paper-plane plane-np"></i>
+            </div>
+            <p class="nav-text mb-0 ml-2">NOVA p.o.d.</p>
+        </a>
+        <button class="navbar-toggler nav-toggler-border" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+            </ul>
+            <div class="d-flex justify-content-start align-items-center">
+                <button type="button" class="btn btn-outline btn-new-offer" data-toggle="modal" data-target="#Modal2">+
+                    Add new offer
+                </button>
+                <button type="button" class="btn whole-button-bulb">
+                    <i class="far fa-lightbulb light-bulb"></i>
+                    <span class="badge badge-orange">2</span>
+                    <i class="fas fa-user user-pic"></i>
+                    <i class="fas fa-caret-down user-drop"></i>
+                </button>
+            </div>
+            <div class="sidemenu-nav">
+                <p class="nav-side-menu-text-main mb-0">NAVIGATION</p>
+                <ul class="list-unstyled components">
+                    <li class>
+                        <a href="#" class="sidemenu-text-nav"><img src="../img/Icon%201.svg" alt="image">Dashboards</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text-nav"><img src="../img/Icon%201.svg" alt="image">Offers <span
+                                class="badge badge-orange-nav">2</span> </a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text-nav"><img src="../img/Icon%201.svg" alt="image">Objects</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text-nav"><img src="../img/Icon%201.svg" alt="image">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text-nav"><img src="../img/Icon%201.svg" alt="image">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text-nav"><img src="../img/Icon%201.svg" alt="image">Users</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text-nav"><img src="../img/Icon%201.svg" alt="image">Archive</a>
+                    </li>
+                </ul>
+                <p class="nav-side-menu-text-main m-0">OBJECTS/PROJECTS</p>
+                <p class="nav-side-menu-text-main mb-2">WITHIN FUND</p>
+                <ul class="list-unstyled components">
+                    <li class>
+                        <a href="#" class="sidemenu-text-nav"><img src="../img/Icon%201.svg" alt="image">Novavest</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text-nav"><img src="../img/Icon%201.svg" alt="image">SenioResidenz AG</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text-nav"><img src="../img/Icon%201.svg" alt="image">AST 1291</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text-nav"><img src="../img/Icon%201.svg" alt="image">Central - Fund</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <!--Side Menu-->
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav class="np-sidebar">
+            <div class="col sidemenu-position">
+                <p class="nav-side-menu-text mb-2">NAVIGATION</p>
+                <ul class="list-unstyled components">
+                    <li class>
+                        <a href="#" class="sidemenu-text"><img src="../img/Icon%201.svg" alt="image">Dashboards</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text"><img src="../img/Icon%201.svg" alt="image">Offers
+                            <span class="badge badge-orange2">2</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text"><img src="../img/Icon%201.svg" alt="image">Objects</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text"><img src="../img/Icon%201.svg" alt="image">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text"><img src="../img/Icon%201.svg" alt="image">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text"><img src="../img/Icon%201.svg" alt="image">Users</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text"><img src="../img/Icon%201.svg" alt="image">Archive</a>
+                    </li>
+                </ul>
+                <p class="nav-side-menu-text m-0">OBJECTS/PROJECTS</p>
+                <p class="nav-side-menu-text mb-2">WITHIN FUND</p>
+                <ul class="list-unstyled components">
+                    <li class>
+                        <a href="#" class="sidemenu-text"><img src="../img/Icon%201.svg" alt="image">Novavest</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text"><img src="../img/Icon%201.svg" alt="image">SenioResidenz AG</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text"><img src="../img/Icon%201.svg" alt="image">AST 1291</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidemenu-text"><img src="../img/Icon%201.svg" alt="image">Central - Fund</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content  -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main">
+                        <div class="form-group has-search">
+                            <span class="fas fa-search form-control-feedback"></span>
+                            <input type="text" class="form-control border-src" placeholder="Search...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card-elements">
+                    <img class="img-obj" src="../img/card-pic.jpg" alt="image">
+                    <div class="label-np d-flex justify-content-center text-align-center">Object</div>
+                    <button type="button" class="btn btn-opacity-card btn-opacity-card--preview">PREVIEW</button>
+                    <button type="button" class="btn btn-opacity-card btn-opacity-card--mapview">MAP VIEW</button>
+                </div>
+            </div>
+        </div>
+            <div class="row mb-5">
+                <div class="col-6 under-pic-text d-flex justify-content-start">
+                    <h5>Date added: <b>Today</b></h5>
+                </div>
+                <div class="col-6 under-pic-text d-flex justify-content-end">
+                    <h5>Last seen: -</h5>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-6 category-tags-details">
+                    <h1>Grenchen Sunnepark</h1>
+                    <h4>
+                        <span class="pr-1">Category 1</span>
+                        <span class="px-1">Category 2</span>
+                        <span class="px-1">Category 3</span>
+                        <span class="px-1">Tag 1</span>
+                        <span class="px-1">Tag 2</span>
+                        <span class="border-right">Tag 3</span>
+                    </h4>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <button type="button" class="btn btn-mode btn-mode--edit-mode mr-2">Edit mode</button>
+                    <button type="button" class="btn btn-mode btn-mode--archive">Archive</button>
+                </div>
+            </div>
+
+
+
+            <div class="container box-os">
+
+                <!--BOX WITH DETAILS-->
+            <div class="row">
+                <div class="col-4">
+                    <div class="borderOS">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <i class="fas fa-home home-icon"></i>
+                                </div>
+                                <div class="col-12 d-flex justify-content-center">
+                                    <h6>Fond responsible</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            -
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="button" class="btn btn-assignOS p-0 mt-3">Assign</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="borderOS">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <i class="fas fa-book-open home-icon"></i>
+                                </div>
+                                <div class="col-12 d-flex justify-content-center">
+                                    <h6>Portfolio</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        -
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="button" class="btn btn-assignOS p-0 mt-3">Add</button>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <i class="fas fa-money-bill-alt home-icon"></i>
+                                </div>
+                                <div class="col-12 d-flex justify-content-center">
+                                    <h6>Fond responsible</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <h4>8,200,000 CHF</h4>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!--TABS-->
+<div class="row">
+    <div class="col-12 tabs-os">
+            <ul class="nav nav-tabs nav-custom-tabs" id="myTab" role="tablist">
+                <li class="col-6 px-0 nav-item">
+                    <div class="nav-link tab-text active py-0" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                        <i class="far fa-question-circle logo-clr"></i>
+                        <h4 class="pb-1 mb-0">Information</h4>
+                    </div>
+                </li>
+                <li class="col-6 px-0 nav-item">
+                    <div class="nav-link tab-text py-0" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+                        <i class="fas fa-briefcase logo-clr"></i>
+                        <h4 class="pb-1 mb-0">Finances</h4>
+                    </div>
+                </li>
+
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-12 mt-4">
+                            <h2>Basic Information</h2>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">zoki</div>
+            </div>
+    </div>
+</div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+</html>
