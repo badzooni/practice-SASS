@@ -8,7 +8,7 @@
   width: 100%;
   height: 180px;
 }
-.label-np {
+.label-OS {
   background-color: $red-10;
   color: $white;
   height: $size-30;
@@ -53,39 +53,163 @@
 
 .tabs-os {
   margin-top: 120px;
-
+  h2 {
+    color: $gray-80;
+  }
+  .pointerOS {
+    cursor: pointer;
+  }
   .nav-custom-tabs {
+    border-bottom: none;
+
+    .nav-link {
+      background-color: $gray-110;
+      border-radius: unset;
+      border-right: none;
+      border-left: none;
       border-bottom: none;
-      .nav-link {
-        background-color: $gray-110;
-        border-radius: unset;
-        border-right: none;
-        border-left: none;
-        border-bottom: none;
-        .logo-clr {
-          color: $gray-60;
-        }
-        h4 {
-          font-weight: $weight-600;
-          color: $gray-60;
-        }
+
+      .logo-clr {
+        color: $gray-60;
       }
 
-      .nav-link.active {
-        background-color: $white;
-        border-top: 3px solid $green-20;
-        .logo-clr {
-          color: $green-20;
-        }
-        h4 {
-          font-weight: $weight-600;
-          color: $green-20;
-        }
+      h4 {
+        font-weight: $weight-600;
+        color: $gray-60;
       }
+    }
+
+    .nav-link.active {
+      background-color: $white;
+      border-top: 3px solid $green-20;
+
+      .logo-clr {
+        color: $green-20;
+      }
+
+      h4 {
+        font-weight: $weight-600;
+        color: $green-20;
+      }
+    }
 
 
     .tab-text {
       text-align: center;
     }
   }
+
+  .basicinfo {
+    padding: 20px;
+    box-shadow: 1px 3px 13px 2px rgba(53, 64, 82, 0.1);
+    text-align: center;
+
+    &--details1 {
+      background-color: $red-10;
+      border-radius: 4px 4px 0px 0px;
+
+      h4 {
+        color: $white;
+        font-weight: $weight-600;
+
+      }
+    }
+
+    &--details2 {
+      padding-top: 10px;
+      background-color: $white;
+      margin-bottom: 30px;
+      border-radius: 0px 0px 4px 4px;
+
+      h4 {
+        color: $gray-80;
+      }
+    }
+  }
+  .data {
+    h2 {
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+      .projectdata-box {
+        background-color: $white;
+        box-shadow: 1px 3px 13px 2px rgba(53, 64, 82, 0.1);
+        padding: 20px;
+        min-height: 228px;
+      }
+  }
+  .projectdata-box {
+    border-radius: $size-4;
+    h4 {
+      color: $gray-80;
+    }
+    h5 {
+      margin-bottom: 0;
+      color: $gray-60;
+    }
+    .icon-house {
+      color: $gray-60;
+    }
+  }
+  .bf-main {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  .bf-details {
+    box-shadow: 1px 3px 13px 2px rgba(53, 64, 82, 0.1);
+    background-color: $white;
+    border-radius: $size-4;
+    padding: 20px;
+    margin-bottom: 20px;
+    h4 {
+      font-family: SourceSansPro-Bold, serif;
+      font-weight: $weight-bold;
+      color: $gray-80;
+      .lineOS {
+        color: $gray-60;
+        font-weight: normal;
+      }
+    }
+  }
+  .second-boxOS {
+    border-radius: $size-4;
+    box-shadow: 1px 3px 13px 2px rgba(53, 64, 82, 0.1);
+    background-color: $white;
+    padding: 20px 30px 10px;
+    h4 {
+      color: $gray-60;
+      margin-bottom: 42px;
+    }
+    .second-box {
+      text-align: center;
+      .houseLEG {
+        color: $gray-60;
+      }
+      &--LEG {
+        border-right: 1px solid $gray-20;
+      }
+      &--REG {
+        border: none;
+      }
+    }
+    .boxOS-link {
+      color: $green-20;
+      font-family: SourceSansPro-Bold, serif;
+    }
+    .h5-align {
+      text-align: end;
+    }
+  }
+  .btn-margin {
+    margin-top: 13px;
+  }
+  .price-OS {
+    border-radius: $size-4;
+    box-shadow: 1px 3px 13px 2px rgba(53, 64, 82, 0.1);
+    background-color: $white;
+    padding: 20px 0;
+    text-align: center;
+  }
 }
+
+
