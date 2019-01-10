@@ -6948,13 +6948,9 @@ h6 {
     .tabs-os .basicinfo--details2 {
       padding-top: 10px;
       background-color: #ffffffff;
-      margin-bottom: 30px;
       border-radius: 0px 0px 4px 4px; }
       .tabs-os .basicinfo--details2 h4 {
         color: #354052; }
-  .tabs-os .data h2 {
-    margin-bottom: 20px;
-    padding-left: 20px; }
   .tabs-os .data .projectdata-box {
     background-color: #ffffffff;
     box-shadow: 1px 3px 13px 2px rgba(53, 64, 82, 0.1);
@@ -6976,8 +6972,7 @@ h6 {
     box-shadow: 1px 3px 13px 2px rgba(53, 64, 82, 0.1);
     background-color: #ffffffff;
     border-radius: 0.25rem;
-    padding: 20px;
-    margin-bottom: 20px; }
+    padding: 20px; }
     .tabs-os .bf-details h4 {
       font-family: SourceSansPro-Bold, serif;
       font-weight: bold;
@@ -7008,12 +7003,35 @@ h6 {
       text-align: end; }
   .tabs-os .btn-margin {
     margin-top: 13px; }
-  .tabs-os .price-OS {
+  .tabs-os .box-finances {
     border-radius: 0.25rem;
-    box-shadow: 1px 3px 13px 2px rgba(53, 64, 82, 0.1);
-    background-color: #ffffffff;
-    padding: 20px 0;
-    text-align: center; }
+    box-shadow: 1px 3px 13px 2px rgba(53, 64, 82, 0.1); }
+    .tabs-os .box-finances h2 {
+      color: #68768c; }
+    .tabs-os .box-finances h4 {
+      color: #68768c; }
+    .tabs-os .box-finances .padding-totalic {
+      padding: 26px; }
+    .tabs-os .box-finances .total-weight {
+      font-weight: 600; }
+    .tabs-os .box-finances--price-overview {
+      background-color: #ffffffff;
+      padding: 20px 0;
+      text-align: center; }
+    .tabs-os .box-finances--totalcost {
+      padding: 20px 30px 10px;
+      background-color: #c23e4e; }
+      .tabs-os .box-finances--totalcost h2 {
+        color: #ffffffff; }
+      .tabs-os .box-finances--totalcost h4 {
+        color: #ffffffff; }
+    .tabs-os .box-finances--soll-nett {
+      padding: 20px 30px 10px 30px; }
+      .tabs-os .box-finances--soll-nett .total-sn {
+        font-weight: 600;
+        font-family: SourceSansPro-Semibold, serif; }
+    .tabs-os .box-finances--immobilien {
+      padding: 20px; }
 
 .btn-new-offer {
   min-width: 182px;
@@ -7582,8 +7600,8 @@ h6 {
       padding-right: 0.625rem; }
 
 .wrapper .np-sidebar {
-  min-width: 250px;
-  max-width: 250px;
+  min-width: 172px;
+  max-width: 172px;
   background: #fcfdfd;
   color: #9fa9ba;
   transition: all 0.3s;
