@@ -1,3 +1,21 @@
+@media screen and (max-width: 768px) {
+ .category-tags-details {
+   .baki {
+     display: block!important;
+     h4 {
+       border-right: none;
+       padding-left: 0!important;
+     }
+   }
+ }
+  .basicinfo{
+    &--details1 {
+      display: block!important;
+    }
+  }
+
+}
+
 @media screen and (min-width: 991px) {
   .np-content {
     padding: 20px 50px;
